@@ -3,9 +3,9 @@ public class DoWhile {
          {
             double i =  0;
             do {
-                System.out.printf("%.1f",i);
+                System.out.printf("%.1f ",i);
                 i = i + 0.1;
-            }while(i <= 3);
+            }while(i < 3.1);
 
         }
     }
